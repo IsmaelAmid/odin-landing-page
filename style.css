@@ -126,3 +126,39 @@ h2 {
     font-style: normal;
     text-align: end;
 }
+
+.box {
+    display: flex;
+    margin: 100px 125px;
+    background-color: #3882f6;
+    padding: 50px 125px;
+    border-radius: 15px;
+    color: #f9faf8;
+    justify-content: space-between;
+}
+
+.box-head {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: #f9faf8;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 5px 32px;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #1f2937;
+    justify-content: center;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 36px;
+    font-size: 18px;
+}
