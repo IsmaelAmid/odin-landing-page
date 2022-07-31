@@ -66,7 +66,63 @@ h1 {
     color: #f9faf8;
 }
 
-p {
+.section-one p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 50px 0;
+}
+
+.cards {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.cards-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.cards div {
+    width: 150px;
+    height: 150px;
+    margin: 0 30px;
+}
+
+.cards p {
+    text-align: center;
+    color: #1f2937;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+
+.quote {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote span {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    text-align: end;
 }
